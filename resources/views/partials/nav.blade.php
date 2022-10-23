@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
         <a class="nav-link {{ ($title === 'Home')? 'active' : '' }}" aria-current="page" href="/">Home</a>
-        <a class="nav-link {{ ($title === 'My Work')? 'active' : '' }}" href="/mywork">My Work</a>
+        <a class="nav-link {{ ($title === 'My Work')? 'active' : '' }}" href="/myworks">My Work</a>
         <a class="nav-link {{ ($title === 'About')? 'active' : '' }}" href="/about">About</a>
         <a class="nav-link {{ ($title === 'Contact Us')? 'active' : '' }}" href="/contact">Contact Us</a>
       </div>
