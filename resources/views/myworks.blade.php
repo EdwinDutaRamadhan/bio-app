@@ -27,3 +27,9 @@
     @endforeach()
 
 @endsection
+{{-- Mywork::create([
+    'title' => 'Project Ketiga',
+    'slug' => 'project-ketiga',
+    'image' => 'web.jpg',
+    'body' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos laudantium delectus ut laborum. Voluptatem, maiores officiis iste, veniam cum temporibus accusamus dolore, cumque voluptates maxime recusandae quos sequi! Ipsam, est.'
+]); --}}

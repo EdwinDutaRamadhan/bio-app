@@ -9,13 +9,13 @@ class MyworkController extends Controller
     public function index(){
         return view('myworks',[
             'title' => 'My Works',
-            'project' => Mywork::getAllData()
+            'project' => Mywork::all()
         ]);
     }
     public function detail($slug){
         return view('mywork', [
             'title' => 'My Work',
-            'project' => Mywork::detail($slug)
+            'project' => Mywork::firstWhere('slug', $slug)
         ]);
     }
 }
