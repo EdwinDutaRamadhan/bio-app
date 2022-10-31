@@ -12,10 +12,10 @@ class MyworkController extends Controller
             'project' => Mywork::all()
         ]);
     }
-    public function detail($slug){
+    public function detail(Mywork $mywork){
         return view('mywork', [
             'title' => 'My Work',
-            'project' => Mywork::firstWhere('slug', $slug)
+            'project' => $mywork
         ]);
     }
 }

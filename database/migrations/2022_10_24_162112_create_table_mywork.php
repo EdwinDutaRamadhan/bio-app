@@ -15,9 +15,11 @@ return new class extends Migration
     {
         Schema::create('Myworks', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('category_id');
             $table->string('title')->unique();
             $table->string('slug');
             $table->string('image');
+            $table->text('excerpt');
             $table->text('body');
             $table->timestamps();
         });

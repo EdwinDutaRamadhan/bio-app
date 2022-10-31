@@ -37,4 +37,4 @@ Route::get('/contact', function(){
 });
 
 Route::get('/myworks', [MyworkController::class, 'index']);
-Route::get('/mywork/{slug}',[MyworkController::class, 'detail']);
+Route::get('/mywork/{mywork:slug}',[MyworkController::class, 'detail']);
