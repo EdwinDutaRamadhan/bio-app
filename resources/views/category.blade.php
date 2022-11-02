@@ -1,7 +1,7 @@
 @extends('templating.main')
 
 @section('container')
-    
+    <h1>My Work Category : {{ $category }}</h1>
     @foreach($project as $data)
         <div class="container m-3">
             <div class="card">
